@@ -1,4 +1,4 @@
-# 1. Clone the repository
+1. Clone the repository
 
 
 # 2. Create a virtual environment (optional)
@@ -19,3 +19,4 @@ uvicorn app.main:app --reload
 
 # 7. In a new terminal, run the Streamlit frontend
 streamlit run app/ui.py
+
