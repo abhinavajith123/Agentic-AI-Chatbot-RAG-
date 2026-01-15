@@ -7,15 +7,21 @@ Format:
  GROQ_API_KEY=your_api_key_here
 
 4. Install required dependencies
+```
 pip install -r requirements.txt
+```
 
-5. Ingest the PDF and build the FAISS vector index
+6. Ingest the PDF and build the FAISS vector index
+```
 python scripts/ingest.py
-
-6. Start the FastAPI backend server
+```
+7. Start the FastAPI backend server
+```
 uvicorn app.main:app --reload
-
-7. In a new terminal, run the Streamlit frontend
+```
+9. In a new terminal, run the Streamlit frontend
+```
 streamlit run app/ui.py
+```
 
 
