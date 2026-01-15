@@ -1,4 +1,4 @@
-Short Architecture:
+## Short Architecture:
 ### PDF Ingestion & Chunking:
 
 PDFs are loaded using pdfplumber, with each page’s text extracted and stored with page metadata.
@@ -31,6 +31,7 @@ Exposes endpoints to accept user queries and return RAG-based responses.
 
 Interactive frontend for submitting questions and displaying answers with confidence scores.
 
+## Instruction 
 1. Clone the repository
 
 2. Create a virtual environment (optional)
@@ -56,6 +57,13 @@ uvicorn app.main:app --reload
 ```
 streamlit run app/ui.py
 ```
+
+## Sample queries :
+What is Agentic AI
+What are agents
+What are the characteristics of an Agent 
+What are the categories and Types of Agentic Systems
+Whatis the capital of India
 
 
 
