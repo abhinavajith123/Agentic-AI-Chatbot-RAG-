@@ -1,0 +1,5 @@
+Collecting oauthlib
+  Downloading oauthlib-3.3.1-py3-none-any.whl.metadata (7.9 kB)
+Downloading oauthlib-3.3.1-py3-none-any.whl (160 kB)
+Installing collected packages: oauthlib
+Successfully installed oauthlib-3.3.1
